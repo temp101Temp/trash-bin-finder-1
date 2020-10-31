@@ -1,0 +1,28 @@
+{
+  "name": "trash-bin-finder-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine ./tests/*",
+    "start": "nodemon index.js"
+  },
+  "author": "oriel yemini",
+  "license": "ISC",
+  "dependencies": {
+    "awilix": "^4.2.7",
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.2",
+    "ioredis": "^4.17.3",
+    "jasmine": "^3.6.2",
+    "mocha": "^8.2.0",
+    "mockserver-client": "^5.11.1",
+    "mockserver-node": "^5.11.1",
+    "nodemon": "^2.0.6",
+    "swagger-jsdoc": "^4.3.0",
+    "swagger-ui-express": "^4.1.4"
+  }
+}
